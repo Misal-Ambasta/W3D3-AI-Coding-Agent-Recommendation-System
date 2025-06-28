@@ -1,0 +1,631 @@
+{
+    "agents": [
+      {
+        "id": "github-copilot",
+        "name": "GitHub Copilot",
+        "version": "2024.1",
+        "description": "AI pair programmer that helps you write code faster with contextual suggestions",
+        "languages": {
+          "javascript": 95,
+          "python": 92,
+          "typescript": 90,
+          "java": 88,
+          "c_sharp": 85,
+          "go": 82,
+          "rust": 78,
+          "php": 80,
+          "ruby": 75,
+          "cpp": 83,
+          "html": 88,
+          "css": 85,
+          "sql": 70
+        },
+        "ide_integration": [
+          "vscode",
+          "visual_studio",
+          "neovim",
+          "jetbrains_ides",
+          "xcode"
+        ],
+        "strengths": [
+          "Excellent code completion",
+          "Natural language to code conversion",
+          "Test generation",
+          "Documentation writing",
+          "Boilerplate code generation",
+          "Multi-language support"
+        ],
+        "weaknesses": [
+          "Can generate inefficient code",
+          "Limited understanding of business logic",
+          "Requires internet connection",
+          "May suggest outdated patterns",
+          "Struggles with complex algorithms"
+        ],
+        "best_use_cases": [
+          "Web development",
+          "API development",
+          "Frontend applications",
+          "Rapid prototyping",
+          "Learning new languages",
+          "Writing tests"
+        ],
+        "pricing": {
+          "individual": 10,
+          "business": 19,
+          "enterprise": "custom",
+          "free_tier": false,
+          "currency": "USD",
+          "billing": "monthly"
+        },
+        "performance_metrics": {
+          "response_time_ms": 150,
+          "accuracy_score": 85,
+          "user_satisfaction": 4.2,
+          "code_quality_score": 78
+        },
+        "features": {
+          "context_window": 8000,
+          "offline_capability": false,
+          "customization": "limited",
+          "collaboration": true,
+          "learning_capability": true,
+          "security_features": ["enterprise_grade", "data_encryption"]
+        },
+        "complexity_rating": "beginner_to_advanced",
+        "setup_difficulty": "easy",
+        "learning_curve": "low"
+      },
+      {
+        "id": "cursor-ai",
+        "name": "Cursor",
+        "version": "0.40",
+        "description": "AI-first code editor built for productivity with advanced code generation",
+        "languages": {
+          "javascript": 93,
+          "typescript": 94,
+          "python": 90,
+          "java": 85,
+          "c_sharp": 82,
+          "go": 88,
+          "rust": 85,
+          "php": 78,
+          "ruby": 76,
+          "cpp": 80,
+          "html": 90,
+          "css": 87,
+          "sql": 75
+        },
+        "ide_integration": [
+          "standalone_editor"
+        ],
+        "strengths": [
+          "Advanced AI code generation",
+          "Excellent codebase understanding",
+          "Natural language editing",
+          "Fast performance",
+          "Built-in AI chat",
+          "Smart refactoring"
+        ],
+        "weaknesses": [
+          "New product with evolving features",
+          "Limited plugin ecosystem",
+          "Requires learning new editor",
+          "Premium features behind paywall"
+        ],
+        "best_use_cases": [
+          "Full-stack development",
+          "Code refactoring",
+          "Large codebase navigation",
+          "AI-assisted development",
+          "Rapid development cycles"
+        ],
+        "pricing": {
+          "hobby": 20,
+          "pro": 40,
+          "business": "custom",
+          "free_tier": true,
+          "currency": "USD",
+          "billing": "monthly"
+        },
+        "performance_metrics": {
+          "response_time_ms": 120,
+          "accuracy_score": 88,
+          "user_satisfaction": 4.5,
+          "code_quality_score": 82
+        },
+        "features": {
+          "context_window": 32000,
+          "offline_capability": false,
+          "customization": "high",
+          "collaboration": true,
+          "learning_capability": true,
+          "security_features": ["data_privacy", "local_processing"]
+        },
+        "complexity_rating": "intermediate_to_advanced",
+        "setup_difficulty": "medium",
+        "learning_curve": "medium"
+      },
+      {
+        "id": "replit-ghostwriter",
+        "name": "Replit Ghostwriter",
+        "version": "2024",
+        "description": "AI coding assistant integrated into Replit's cloud development environment",
+        "languages": {
+          "python": 90,
+          "javascript": 88,
+          "java": 85,
+          "c_sharp": 80,
+          "go": 82,
+          "rust": 75,
+          "php": 78,
+          "ruby": 76,
+          "cpp": 79,
+          "html": 85,
+          "css": 83,
+          "sql": 72,
+          "r": 70,
+          "swift": 68
+        },
+        "ide_integration": [
+          "replit_only"
+        ],
+        "strengths": [
+          "Cloud-based development",
+          "Easy collaboration",
+          "No setup required",
+          "Great for beginners",
+          "Multi-language support",
+          "Integrated deployment"
+        ],
+        "weaknesses": [
+          "Limited to Replit environment",
+          "Internet dependency",
+          "Performance limitations",
+          "Limited advanced features"
+        ],
+        "best_use_cases": [
+          "Educational projects",
+          "Quick prototyping",
+          "Collaborative coding",
+          "Learning programming",
+          "Small to medium projects"
+        ],
+        "pricing": {
+          "starter": 0,
+          "hacker": 7,
+          "pro": 20,
+          "team": 20,
+          "currency": "USD",
+          "billing": "monthly",
+          "free_tier": true
+        },
+        "performance_metrics": {
+          "response_time_ms": 200,
+          "accuracy_score": 78,
+          "user_satisfaction": 4.0,
+          "code_quality_score": 75
+        },
+        "features": {
+          "context_window": 4000,
+          "offline_capability": false,
+          "customization": "low",
+          "collaboration": true,
+          "learning_capability": false,
+          "security_features": ["basic_security"]
+        },
+        "complexity_rating": "beginner_to_intermediate",
+        "setup_difficulty": "easy",
+        "learning_curve": "low"
+      },
+      {
+        "id": "amazon-codewhisperer",
+        "name": "Amazon CodeWhisperer",
+        "version": "2024",
+        "description": "Machine learning powered code generator with security scanning capabilities",
+        "languages": {
+          "python": 90,
+          "java": 92,
+          "javascript": 87,
+          "typescript": 85,
+          "c_sharp": 88,
+          "go": 85,
+          "rust": 78,
+          "php": 75,
+          "ruby": 73,
+          "cpp": 82,
+          "scala": 80,
+          "kotlin": 85,
+          "sql": 78
+        },
+        "ide_integration": [
+          "vscode",
+          "intellij_idea",
+          "pycharm",
+          "webstorm",
+          "aws_cloud9",
+          "vim",
+          "emacs"
+        ],
+        "strengths": [
+          "Strong security scanning",
+          "AWS integration",
+          "Enterprise features",
+          "Multiple IDE support",
+          "Reference tracking",
+          "Code vulnerability detection"
+        ],
+        "weaknesses": [
+          "AWS ecosystem focused",
+          "Limited creative coding",
+          "Complex enterprise setup",
+          "Learning curve for non-AWS users"
+        ],
+        "best_use_cases": [
+          "Enterprise development",
+          "AWS cloud applications",
+          "Security-critical projects",
+          "Large team development",
+          "Infrastructure as code"
+        ],
+        "pricing": {
+          "individual": 0,
+          "professional": 19,
+          "enterprise": "custom",
+          "free_tier": true,
+          "currency": "USD",
+          "billing": "monthly"
+        },
+        "performance_metrics": {
+          "response_time_ms": 180,
+          "accuracy_score": 83,
+          "user_satisfaction": 3.9,
+          "code_quality_score": 85
+        },
+        "features": {
+          "context_window": 6000,
+          "offline_capability": false,
+          "customization": "medium",
+          "collaboration": true,
+          "learning_capability": false,
+          "security_features": ["security_scanning", "vulnerability_detection", "reference_tracking"]
+        },
+        "complexity_rating": "intermediate_to_advanced",
+        "setup_difficulty": "medium",
+        "learning_curve": "medium"
+      },
+      {
+        "id": "tabnine",
+        "name": "Tabnine",
+        "version": "5.0",
+        "description": "AI code completion tool with privacy-focused approach and team learning",
+        "languages": {
+          "javascript": 88,
+          "python": 90,
+          "java": 89,
+          "typescript": 87,
+          "c_sharp": 85,
+          "go": 83,
+          "rust": 80,
+          "php": 82,
+          "ruby": 79,
+          "cpp": 86,
+          "html": 84,
+          "css": 81,
+          "sql": 76,
+          "kotlin": 82,
+          "swift": 78
+        },
+        "ide_integration": [
+          "vscode",
+          "intellij_idea",
+          "sublime_text",
+          "atom",
+          "vim",
+          "emacs",
+          "eclipse",
+          "visual_studio"
+        ],
+        "strengths": [
+          "Privacy-focused",
+          "Team model training",
+          "Wide IDE support",
+          "Local model options",
+          "Custom model training",
+          "Enterprise security"
+        ],
+        "weaknesses": [
+          "Higher pricing for advanced features",
+          "Setup complexity for teams",
+          "Limited natural language features",
+          "Smaller context window"
+        ],
+        "best_use_cases": [
+          "Privacy-sensitive projects",
+          "Team collaboration",
+          "Enterprise environments",
+          "Custom model requirements",
+          "Multi-IDE workflows"
+        ],
+        "pricing": {
+          "starter": 0,
+          "pro": 12,
+          "enterprise": "custom",
+          "free_tier": true,
+          "currency": "USD",
+          "billing": "monthly"
+        },
+        "performance_metrics": {
+          "response_time_ms": 100,
+          "accuracy_score": 82,
+          "user_satisfaction": 4.1,
+          "code_quality_score": 80
+        },
+        "features": {
+          "context_window": 3000,
+          "offline_capability": true,
+          "customization": "high",
+          "collaboration": true,
+          "learning_capability": true,
+          "security_features": ["local_processing", "team_privacy", "enterprise_security"]
+        },
+        "complexity_rating": "beginner_to_advanced",
+        "setup_difficulty": "medium",
+        "learning_curve": "low"
+      },
+      {
+        "id": "codeium",
+        "name": "Codeium",
+        "version": "1.8",
+        "description": "Free AI-powered code acceleration toolkit with chat and search capabilities",
+        "languages": {
+          "python": 89,
+          "javascript": 87,
+          "typescript": 86,
+          "java": 84,
+          "c_sharp": 82,
+          "go": 85,
+          "rust": 81,
+          "php": 80,
+          "ruby": 77,
+          "cpp": 83,
+          "html": 86,
+          "css": 84,
+          "sql": 74,
+          "swift": 75,
+          "kotlin": 80
+        },
+        "ide_integration": [
+          "vscode",
+          "intellij_idea",
+          "pycharm",
+          "webstorm",
+          "sublime_text",
+          "vim",
+          "emacs",
+          "jupyter_notebook"
+        ],
+        "strengths": [
+          "Completely free tier",
+          "Wide language support",
+          "Fast autocomplete",
+          "AI chat feature",
+          "Search functionality",
+          "Multiple IDE support"
+        ],
+        "weaknesses": [
+          "Newer in market",
+          "Limited advanced features",
+          "Smaller context understanding",
+          "Less sophisticated than premium options"
+        ],
+        "best_use_cases": [
+          "Individual developers",
+          "Open source projects",
+          "Students and learners",
+          "Budget-conscious teams",
+          "Multi-language development"
+        ],
+        "pricing": {
+          "individual": 0,
+          "teams": 12,
+          "enterprise": "custom",
+          "free_tier": true,
+          "currency": "USD",
+          "billing": "monthly"
+        },
+        "performance_metrics": {
+          "response_time_ms": 130,
+          "accuracy_score": 79,
+          "user_satisfaction": 4.3,
+          "code_quality_score": 76
+        },
+        "features": {
+          "context_window": 5000,
+          "offline_capability": false,
+          "customization": "medium",
+          "collaboration": false,
+          "learning_capability": false,
+          "security_features": ["basic_privacy"]
+        },
+        "complexity_rating": "beginner_to_intermediate",
+        "setup_difficulty": "easy",
+        "learning_curve": "low"
+      },
+      {
+        "id": "codex-openai",
+        "name": "OpenAI Codex",
+        "version": "2023",
+        "description": "GPT-based code generation model powering various coding assistants",
+        "languages": {
+          "python": 94,
+          "javascript": 91,
+          "typescript": 89,
+          "java": 86,
+          "c_sharp": 84,
+          "go": 87,
+          "rust": 82,
+          "php": 81,
+          "ruby": 80,
+          "cpp": 85,
+          "html": 88,
+          "css": 86,
+          "sql": 79,
+          "swift": 77,
+          "kotlin": 83
+        },
+        "ide_integration": [
+          "api_integration",
+          "custom_implementations"
+        ],
+        "strengths": [
+          "High-quality code generation",
+          "Natural language understanding",
+          "Versatile API access",
+          "Strong problem-solving",
+          "Multi-paradigm support",
+          "Research-backed model"
+        ],
+        "weaknesses": [
+          "Requires technical integration",
+          "API costs can accumulate",
+          "No direct IDE integration",
+          "Rate limiting",
+          "Deprecated in favor of GPT models"
+        ],
+        "best_use_cases": [
+          "Custom AI integrations",
+          "Research projects",
+          "Advanced automation",
+          "Educational tools",
+          "Prototype development"
+        ],
+        "pricing": {
+          "pay_per_use": "variable",
+          "free_tier": false,
+          "currency": "USD",
+          "billing": "usage_based"
+        },
+        "performance_metrics": {
+          "response_time_ms": 800,
+          "accuracy_score": 90,
+          "user_satisfaction": 4.0,
+          "code_quality_score": 87
+        },
+        "features": {
+          "context_window": 4000,
+          "offline_capability": false,
+          "customization": "high",
+          "collaboration": false,
+          "learning_capability": false,
+          "security_features": ["api_security"]
+        },
+        "complexity_rating": "advanced",
+        "setup_difficulty": "hard",
+        "learning_curve": "high"
+      },
+      {
+        "id": "sourcegraph-cody",
+        "name": "Sourcegraph Cody",
+        "version": "2024",
+        "description": "AI coding assistant with deep codebase understanding and context awareness",
+        "languages": {
+          "javascript": 86,
+          "typescript": 88,
+          "python": 87,
+          "java": 85,
+          "go": 89,
+          "c_sharp": 82,
+          "rust": 84,
+          "php": 78,
+          "ruby": 76,
+          "cpp": 81,
+          "html": 83,
+          "css": 80,
+          "sql": 77
+        },
+        "ide_integration": [
+          "vscode",
+          "intellij_idea",
+          "neovim"
+        ],
+        "strengths": [
+          "Deep codebase understanding",
+          "Excellent context awareness",
+          "Code search integration",
+          "Enterprise features",
+          "Multi-repository support",
+          "Custom model support"
+        ],
+        "weaknesses": [
+          "Limited IDE support",
+          "Requires Sourcegraph setup",
+          "Complex for simple use cases",
+          "Higher learning curve"
+        ],
+        "best_use_cases": [
+          "Large codebases",
+          "Enterprise development",
+          "Code archaeology",
+          "Multi-repository projects",
+          "Team knowledge sharing"
+        ],
+        "pricing": {
+          "free": 0,
+          "pro": 9,
+          "enterprise": "custom",
+          "free_tier": true,
+          "currency": "USD",
+          "billing": "monthly"
+        },
+        "performance_metrics": {
+          "response_time_ms": 250,
+          "accuracy_score": 85,
+          "user_satisfaction": 4.2,
+          "code_quality_score": 83
+        },
+        "features": {
+          "context_window": 20000,
+          "offline_capability": false,
+          "customization": "high",
+          "collaboration": true,
+          "learning_capability": true,
+          "security_features": ["enterprise_security", "audit_logs"]
+        },
+        "complexity_rating": "intermediate_to_advanced",
+        "setup_difficulty": "medium",
+        "learning_curve": "medium"
+      }
+    ],
+    "metadata": {
+      "version": "1.0.0",
+      "last_updated": "2024-06-28",
+      "total_agents": 8,
+      "categories": [
+        "code_completion",
+        "ai_chat",
+        "security_scanning",
+        "team_collaboration",
+        "enterprise_features"
+      ],
+      "supported_languages": [
+        "javascript",
+        "python",
+        "typescript",
+        "java",
+        "c_sharp",
+        "go",
+        "rust",
+        "php",
+        "ruby",
+        "cpp",
+        "html",
+        "css",
+        "sql",
+        "swift",
+        "kotlin",
+        "scala",
+        "r"
+      ]
+    }
+  }
