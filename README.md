@@ -48,6 +48,12 @@ The system uses a weighted scoring algorithm with the following factors:
 - **OpenAI Codex** - GPT-based code generation
 - **Sourcegraph Cody** - Deep codebase understanding
 
+## Screenshots
+
+![screencapture-localhost-5173-2025-06-28-18_42_27](https://github.com/user-attachments/assets/12c80630-115c-421e-8f79-8d2695928a31)
+
+![screencapture-localhost-5173-2025-06-28-18_42_14](https://github.com/user-attachments/assets/806ef9bb-6dbd-4c9e-9335-cbffc18a636b)
+
 ## 🛠️ Technology Stack
 
 ### Backend
